@@ -1,6 +1,6 @@
 FROM java:8
 
-ENV VERSION="2015a"
+ENV VERSION="R2015a"
 
 RUN wget -O /tmp/installer.zip http://ssd.mathworks.com/supportfiles/downloads/${VERSION}/deployment_files/${VERSION}/installers/glnxa64/MCR_${VERSION}_glnxa64_installer.zip
 
